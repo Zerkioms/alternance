@@ -1,48 +1,52 @@
-# Node.js Rest APIs with Express, Sequelize & MySQL example
+# espelette-front
 
-For more detail, please visit:
-> [Build Node.js Rest APIs with Express, Sequelize & MySQL](https://bezkoder.com/node-js-express-sequelize-mysql/)
+This template should help get you started developing with Vue 3 in Vite.
 
-> [Server side Pagination in Node.js with Sequelize and MySQL](https://bezkoder.com/node-js-sequelize-pagination-mysql/)
+## Recommended IDE Setup
 
-> [Deploying/Hosting Node.js app on Heroku with MySQL database](https://bezkoder.com/deploy-node-js-app-heroku-cleardb-mysql/)
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-Security:
-> [Node.js Express: JWT example | Token Based Authentication & Authorization](https://bezkoder.com/node-js-jwt-authentication-mysql/)
+## Type Support for `.vue` Imports in TS
 
-Associations:
-> [Sequelize Associations: One-to-Many Relationship example](https://bezkoder.com/sequelize-associate-one-to-many/)
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-> [Sequelize Associations: Many-to-Many Relationship example](https://bezkoder.com/sequelize-associate-many-to-many/)
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-Fullstack:
-> [Vue.js + Node.js + Express + MySQL example](https://bezkoder.com/vue-js-node-js-express-mysql-crud-example/)
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-> [Vue.js + Node.js + Express + MongoDB example](https://bezkoder.com/vue-node-express-mongodb-mevn-crud/)
+## Customize configuration
 
-> [Angular 8 + Node.js + Express + MySQL example](https://bezkoder.com/angular-node-express-mysql/)
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-> [Angular 10 + Node.js + Express + MySQL example](https://bezkoder.com/angular-10-node-js-express-mysql/)
+## Project Setup
 
-> [Angular 11 + Node.js Express + MySQL example](https://bezkoder.com/angular-11-node-js-express-mysql/)
-
-> [Angular 12 + Node.js Express + MySQL example](https://bezkoder.com/angular-12-node-js-express-mysql/)
-
-> [React + Node.js + Express + MySQL example](https://bezkoder.com/react-node-express-mysql/)
-
-Integration (run back-end & front-end on same server/port)
-> [Integrate React with Node.js Restful Services](https://bezkoder.com/integrate-react-express-same-server-port/)
-
-> [Integrate Angular with Node.js Restful Services](https://bezkoder.com/integrate-angular-10-node-js/)
-
-> [Integrate Vue with Node.js Restful Services](https://bezkoder.com/serve-vue-app-express/)
-
-## Project setup
-```
-npm install
+```sh
+yarn
 ```
 
-### Run
+### Compile and Hot-Reload for Development
+
+```sh
+yarn dev
 ```
-node server.js
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+yarn build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+yarn test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+yarn lint
 ```
